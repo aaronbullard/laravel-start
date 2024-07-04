@@ -69,8 +69,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 Add the following Codespace secrets
 ```
-APP_DEBUG
-APP_ENV
-DB_CONNECTION
-WWWGROUP
-WWWUSER
+DB_CONNECTION=sqlite
+DB_PASSWORD=
+WWWGROUP=1000
+WWWUSER=1000
