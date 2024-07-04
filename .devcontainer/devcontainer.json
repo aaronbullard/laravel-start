@@ -25,8 +25,7 @@
 	"postStartCommand": "npm run dev",
 	"forwardPorts": [
 		80,
-		5173,
-		3306
+		5173
 	]
 	// "runServices": [],
 	// "shutdownAction": "none",
