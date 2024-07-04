@@ -67,8 +67,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Codespace Notes
 
-Generate application key
+Add the following Codespace secrets
 ```
-php artisan key:generate --show
-```
-Copy key and add to APP_KEY in .env file
+APP_DEBUG
+APP_ENV
+DB_CONNECTION
+WWWGROUP
+WWWUSER
