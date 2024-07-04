@@ -21,7 +21,7 @@
 		}
 	},
 	"remoteUser": "sail",
-	"postCreateCommand": "chmod +x postCreateCommand.sh && postCreateCommand.sh",
+	"postCreateCommand": "chmod +x ./.devcontainer/postCreateCommand.sh && ./.devcontainer/postCreateCommand.sh",
 	"postStartCommand": "npm run dev",
 	"forwardPorts": [
 		80,
