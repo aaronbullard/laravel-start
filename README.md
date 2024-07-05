@@ -67,11 +67,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Codespace Notes
 
-Add the following Codespace secrets
+The following environment variables should be set as Codespace secrets to override during a Codespace creation.
+Their default values match the values in the .env.example.
 ```
-WWWGROUP=1000
-WWWUSER=1000
-DB_CONNECTION=sqlite
-DB_DATABASE=
-DB_USERNAME=
-DB_PASSWORD=
+WWWGROUP
+WWWUSER
+DB_CONNECTION
+DB_DATABASE
+DB_USERNAME
+DB_PASSWORD
