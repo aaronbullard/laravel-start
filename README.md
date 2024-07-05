@@ -67,8 +67,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Codespace Notes
 
-Generate application key
+The following environment variables should be set as Codespace secrets to override during a Codespace creation.
+Their default values match the values in the .env.example.
 ```
-php artisan key:generate --show
-```
-Copy key and add to APP_KEY in .env file
+WWWGROUP
+WWWUSER
+DB_CONNECTION
+DB_DATABASE
+DB_USERNAME
+DB_PASSWORD

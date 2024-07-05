@@ -21,7 +21,7 @@
 		}
 	},
 	"remoteUser": "sail",
-	"postCreateCommand": "chown -R 1000:1000 /var/www/html && cp .env.example .env && composer install && php artisan key:generate && php artisan storage:link --force && php artisan migrate --force --seed && npm install",
+	"postCreateCommand": "chmod +x ./.devcontainer/postCreateCommand.sh && ./.devcontainer/postCreateCommand.sh",
 	"postStartCommand": "npm run dev",
 	"forwardPorts": [
 		80,
